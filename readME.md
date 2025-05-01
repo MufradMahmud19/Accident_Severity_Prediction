@@ -6,7 +6,9 @@ This repository contains the code and analysis for a project developed as part o
 
 ## 📁 Project Structure
 ```bash
-accident-severity-prediction/
+accident-severity-prediction/                     # Pre-processed and feature engineered dataset
+|── data/
+│   ├── Final_Dataset.csv
 ├── notebooks/
 │   ├── Feature_Engineering_+_EDA.ipynb           # Exploratory Data Analysis
 │   ├── Spatial_Analysis.ipynb                    # Geospatial analysis & clustering
@@ -42,6 +44,22 @@ accident-severity-prediction/
 - **Git, LaTeX, Markdown**
 
 ---
+
+### 📊 Dataset
+
+Due to file size limitations, the preprocessed `Final_Dataset.csv` is **not included** in this repository.
+
+To reproduce the dataset locally:
+
+1. Download the **raw accident dataset** from [Kaggle](https://www.kaggle.com/code/devbilalkhan/geospatial-insights-us-car-accidents/input).
+2. Run the [`notebooks/Feature_Engineering_+_EDA.ipynb`](notebooks/Feature_Engineering_+_EDA.ipynb) notebook to:
+   - Clean the data  
+   - Perform feature engineering  
+   - Generate the final processed dataset
+3. Save the output as `Final_Dataset.csv` inside the `data/` folder.
+
+> ⚠️ Ensure you maintain the folder structure as outlined in the project for seamless execution.
+
 
 ## 🔍 Key Highlights
 
