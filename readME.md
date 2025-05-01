@@ -7,8 +7,6 @@ This repository contains the code and analysis for a project developed as part o
 ## 📁 Project Structure
 ```bash
 accident-severity-prediction/
-├── data/
-│   └── Final_Dataset.csv             # Preprocessed dataset (Feature Engineered)
 ├── notebooks/
 │   ├── Feature_Engineering_+_EDA.ipynb           # Exploratory Data Analysis
 │   ├── Spatial_Analysis.ipynb                    # Geospatial analysis & clustering
