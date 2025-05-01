@@ -5,9 +5,23 @@ This repository contains the code and analysis for a project developed as part o
 ---
 
 ## 📁 Project Structure
-
-accident-severity-prediction/ ├── data/ │ └── Final_Dataset.csv # Cleaned and processed dataset ├── notebooks/ │ ├── EDA.ipynb # Exploratory Data Analysis │ ├── Spatial_Analysis.ipynb # Geospatial Clustering & Heatmaps │ └── ML_Model_Training.ipynb # Model training & evaluation ├── figures/ │ └── *.png # All visualizations ├── report/ │ └── Final_Report.pdf # Final project report (LaTeX) ├── requirements.txt # Required Python packages └── README.md # Project overview
-
+```bash
+accident-severity-prediction/
+├── raw_data/
+│   └── Final_Dataset.csv             # Preprocessed dataset (Feature Engineered)
+├── notebooks/
+│   ├── Feature_Engineering_+_EDA.ipynb           # Exploratory Data Analysis
+│   ├── Spatial_Analysis.ipynb                    # Geospatial analysis & clustering
+│   └── ML_Model_Training.ipynb                   # Model implementation & evaluation
+│
+├── figures/
+│   
+├── report/
+│   └── Final_Report.pdf              # Project report (LaTeX output)
+├── requirements.txt                  # Python dependencies
+├── .gitignore                        # Files to ignore in Git
+└── README.md                         # Project overview
+```
 
 ---
 
