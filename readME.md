@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 ## 📚 Acknowledgments
 
-- Kaggle US Accidents Dataset: (https://www.kaggle.com/code/devbilalkhan/geospatial-insights-us-car-accidents/input)[https://www.kaggle.com/code/devbilalkhan/geospatial-insights-us-car-accidents/input]
+- Kaggle US Accidents Dataset: (https://www.kaggle.com/code/devbilalkhan/geospatial-insights-us-car-accidents/input)
 
 - CSC Noppe Jupyter Platform (initial analysis environment)
 
