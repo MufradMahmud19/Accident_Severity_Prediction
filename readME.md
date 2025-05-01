@@ -6,13 +6,12 @@ This repository contains the code and analysis for a project developed as part o
 
 ## 📁 Project Structure
 ```bash
-accident-severity-prediction/                     # Pre-processed and feature engineered dataset
+accident-severity-prediction/                     
 |── data/
-│   ├── Final_Dataset.csv
+│   ├── Final_Dataset.csv                                        # Pre-processed and feature engineered dataset
 ├── notebooks/
-│   ├── Feature_Engineering_+_EDA.ipynb           # Exploratory Data Analysis
-│   ├── Spatial_Analysis.ipynb                    # Geospatial analysis & clustering
-│   └── ML_Model_Training.ipynb                   # Model implementation & evaluation
+│   ├── Feature_Engineering+EDA+Spatial_Analysis.ipynb           # Feature Engineering + Exploratory Data Analysis + geospatial analysis & clustering
+│   └── ML_Model_Training.ipynb                                  # Model implementation & evaluation
 │
 ├── figures/
 │   
