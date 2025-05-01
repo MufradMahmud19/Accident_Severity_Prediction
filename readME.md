@@ -45,7 +45,7 @@ accident-severity-prediction/                     # Pre-processed and feature en
 
 ---
 
-### 📊 Dataset
+### About handling the Dataset
 
 Due to file size limitations, the preprocessed `Final_Dataset.csv` is **not included** in this repository.
 
