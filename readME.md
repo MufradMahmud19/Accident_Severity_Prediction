@@ -86,7 +86,7 @@ All figures are available in the `/images` folder.
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/<your-username>/accident-severity-prediction.git
+   git clone https://github.com/MufradMahmud19/Accident_Severity_Prediction.git
    cd accident-severity-prediction
    ```
 
